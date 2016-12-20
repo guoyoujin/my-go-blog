@@ -1,0 +1,17 @@
+.navbar {
+    margin-bottom: 10px;
+}
+
+.row {
+    margin-right: -5px;
+    margin-left: -5px;
+}
+
+.container{
+    padding-right: 0px;
+    padding-left: 0px;
+}
+
+.navbar-brand{
+    padding-left:25px;
+}

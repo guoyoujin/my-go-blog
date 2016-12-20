@@ -1,12 +1,14 @@
 package models
 
+import "github.com/jinzhu/gorm"
+
 type Permissions struct {
-	Id          int `orm:"pk;auto"`
+	gorm.Model
+	Id           uint `gorm:"primary_key"`
 	Pid         int
 	Url         string
 	Name        string
 	Description string
-	Roles       []*Roles `orm:"reverse(many)"`
 }
 
 
